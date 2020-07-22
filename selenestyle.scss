@@ -97,27 +97,21 @@ $s3:"";
     left: 10%;
     visibility: hidden;
     opacity: 0;
-    animation: appear 30s linear 6s;
+    animation: appear 30s linear 5s;
     .about:hover {
         opacity: 30%;
     }
     .cook:hover {
         opacity: 30%;
-    }
+   }
     .design:hover {
         opacity: 30%;
     }
 }
 
-@keyframes appear {
-    0% {
-        visibility: visible;
-        opacity: 100%
-    }
-    100% {
-        visibility: hidden;
-        opacity: 0;
-    }
 
+@keyframes appear {
+    from {visibility: visible; opacity: 100;}
+    to {visibility: hidden; opacity: 0;}
 }
 
