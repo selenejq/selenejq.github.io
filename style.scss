@@ -1,9 +1,12 @@
+
 body {
     background: radial-gradient(farthest-corner at 15vw 10vh, #D4DFB5, #87B165);
+    width: vw;
+    height: vh;
 }
 .weedDiv {
     position: absolute;
-    right: 10%;
+    right: 0px;
     bottom: 0px;
 }
 
@@ -12,7 +15,7 @@ body {
 }
 
 .blow {
-    right: 0px;
+    right: 20%;
     top: 0px;
 }
 $s1:"";
@@ -37,9 +40,11 @@ $s3:"";
     animation-name: wind;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
+    animation-delay: 1ms;
 }
 
 .layer1 {
+    opacity:0;
     width:1.5rem;
     height:1.5rem;
     filter:blur(1.5px);
@@ -47,6 +52,7 @@ $s3:"";
     animation-duration: 3s;
 }
 .layer2 {
+    opacity:0;
     width:1.2rem;
     height:1.2rem;
     filter:blur(3px);
@@ -54,6 +60,7 @@ $s3:"";
     animation-duration: 5s;
 }
 .layer3 {
+    opacity: 0;
     width:0.8rem;
     height:0.8rem;
     filter:blur(6px);
@@ -62,8 +69,12 @@ $s3:"";
 }
 
 @keyframes wind {
+    0% {
+        opacity: 100%;
+    }
     100% {
         transform: translateX(-100vh);
+        opacity: 0;
         }
     }
 
@@ -89,19 +100,18 @@ $s3:"";
     left: 10%;
     visibility: hidden;
     opacity: 0;
-    animation-name: appear;
-    animation-duration: 30s;
-    animation-delay: 8s;
+    animation: appear 300s linear 5s;
     .about:hover {
         opacity: 30%;
     }
     .cook:hover {
         opacity: 30%;
-    }
+   }
     .design:hover {
         opacity: 30%;
     }
 }
+
 
 @keyframes appear {
     from {visibility: visible; opacity: 100;}
