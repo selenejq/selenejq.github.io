@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    font-family: 'Cormorant', serif;
+}
+
+.sideBar {
+    width: 20%;
+    position: fixed;
+    top: 20%;
+    left: 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.item {
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+    transition: all 0.3s ease;
+}
+
+.item.about {
+    color: #8D8D8D;
+}
+
+.item.cook {
+    color: #8D8D8D;
+}
+
+.item.design {
+    color: #8D8D8D;
+}
+
+.item.contact {
+    color: #87B165;
+}
+
+h1 {
+    color: #87B165;
+    font-size: 350%;
+    font-family: 'Cormorant', serif;
+}
+
+form  {
+    width: 80%;
+    float: right;
+
+}
+
+form input {
+    width: 30%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #87B165;
+    height: 6%;
+    font-family: 'Cormorant', serif;
+    padding-left: 10px;
+}
+
+.submitButton {
+    width: 12%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #87B165;
+    background-color: white;
+    border-radius: 15px;
+    height: 6%; 
+    font-family: 'Cormorant', serif;
+    color: grey;
+}
+
+.submitButton:hover {
+    background-color: #87B165;
+    color: white;
+}
+
+form textarea {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 35%;
+    border-radius: 10px;
+    border: 2px solid #87B165;
+    font-family: 'Cormorant', serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+::placeholder {
+    color: #D8D8D8;
+}
