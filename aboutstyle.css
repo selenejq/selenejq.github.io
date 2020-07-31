@@ -33,3 +33,107 @@ body {
 .item.contact {
     color: #8D8D8D;
 }
+
+.image {
+    float: right;
+}
+
+.me {
+    right: 0px;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 350%;
+    color: #87B165;
+    left: 18%;
+    position: absolute;
+    top: 4%;
+}
+
+.hi {
+    align-items: left;
+    left: 18%;
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    height: 80vh;
+}
+.name {
+    text-align: left;
+    font-family: 'Cormorant', serif;
+    font-size: 200%;
+    color: gray;
+}
+
+.main {
+    top:100%;
+    font-family: 'Cormorant', serif;
+    font-size: 120%;
+    color: gray;
+}
+
+.social {
+    font-family: 'Cormorant', serif;
+    font-size: 100%;
+    color: gray;
+    bottom: 15%;
+    position: absolute;
+}
+
+.icon {
+    bottom: 12%;
+    position: absolute;
+}
+
+.fab {
+    color: #D4DFB5;
+    font-family: 'Cormorant', serif;
+    font-size: 200%;
+}
+
+.fab:hover {
+    color: #E1E1E1;
+}
+
+.other {
+    font-family: 'Cormorant', serif;
+    font-size: 100%;
+    color: gray;
+    bottom: 3%;
+    position: absolute;
+}
+
+.links p {
+    font-family: 'Cormorant', serif;
+    font-size: 90%;
+    color: #D1D1D1;
+    bottom: 0px;
+    position: absolute;
+}
+
+.links span {
+    opacity: 0%;
+    text-decoration: none;
+}
+
+a:link {
+    color: #D4DFB5;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#D1D1D1;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: gray;
+    text-decoration: none;
+  }
