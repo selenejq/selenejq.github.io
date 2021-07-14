@@ -1,139 +1,174 @@
 body {
-    background-color: white;
-}
-
-.sideBar {
-    width: 20%;
-    position: fixed;
-    top: 20%;
-    left: 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.item {
-    font-size: 20px;
-    font-family: 'Cormorant', serif;
-    transition: all 0.3s ease;
-}
-
-.item.about {
-    color: #87B165;
-}
-
-.item.cook {
-    color: #8D8D8D;
-}
-
-.item.design {
-    color: #8D8D8D;
-}
-
-.item.contact {
-    color: #8D8D8D;
-}
-
-.image {
-    float: right;
-}
-
-.me {
-    right: 0px;
+    background: whitesmoke;
+    width: vw;
     height: 100vh;
-}
-
-h1 {
-    font-family: 'Cormorant', serif;
-    font-size: 350%;
-    color: #87B165;
-    left: 18%;
-    position: absolute;
-    top: 4%;
-}
-
-.hi {
-    align-items: left;
-    left: 18%;
-    position: absolute;
-    top: 15%;
-    width: 40%;
-    height: 80vh;
-}
-.name {
+  }
+  
+  #mainSlide {
+    height: 100%;
+    width: 86%;
+    background-color: #B7CB98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #leftSlide {
+    height: 90%;
+    width: 5%;
+    background-color: #C6CFB8;
+    float: left;
+  }
+  
+  #rightSlide {
+    height: 90%;
+    width: 5%;
+    background-color: #C6CFB8;
+    float: right;
+  }
+  
+  #heading {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #title {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 500%;
+    text-align: center;
+    color: #F7F7E8;
+    text-shadow: 6px 6px 0 #CB7454;
+    margin: 0;
+  }
+  
+  #designs {
+    font-family: 'Cormorant Garamond', serif;
+    float:right;
+    text-align: right;
+    margin-right:  3%;
+    color: #F7F7E8;
+    font-weight: bold;
+  }
+  
+  #aboutMe {
+    font-family: 'Cormorant Garamond', serif;
+    float: left;
     text-align: left;
-    font-family: 'Cormorant', serif;
-    font-size: 200%;
-    color: gray;
-}
-
-.main {
-    top:100%;
-    font-family: 'Cormorant', serif;
+    margin-left: 3%;
+    color: #F7F7E8;
+    font-weight: bold;
+  }
+  
+  #subHeading {
+    font-family: 'Cormorant Garamond', serif;
+    justify-self: center;
+    text-align: center;
+    color: #F7F7E8;
+    font-style: italic;
     font-size: 120%;
-    color: gray;
-}
-
-.social {
-    font-family: 'Cormorant', serif;
-    font-size: 100%;
-    color: gray;
-    bottom: 15%;
-    position: absolute;
-}
-
-.icon {
-    bottom: 12%;
-    position: absolute;
-}
-
-.fab {
-    color: #D4DFB5;
+    margin-top: -25;
+    font-weight: bold;
+  }
+  
+  #navBar {
+    position: -webkit-sticky;
+    position: sticky;
+    float: left;
+    top:0px;
+    margin-top: 0;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  
+  #home {
+    color: #9DAD82;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 115%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+  }
+  
+  #buttons {
+    margin-right: 0;
+    float: right;
+    height: 100%;
+    width: 10%;
+  }
+  
+  #contact {
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    right: 0;
+  }
+  
+  #menu {
+    float: right;
+    height: 90%;
+    width: 12%;
+    margin: 0;
+  }
+  
+  .icon {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    width: 100vw;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  
+  .fab {
+    color: #CB7454;
     font-family: 'Cormorant', serif;
     font-size: 200%;
-}
-
-.fab:hover {
-    color: #E1E1E1;
-}
-
-.other {
-    font-family: 'Cormorant', serif;
-    font-size: 100%;
-    color: gray;
-    bottom: 3%;
-    position: absolute;
-}
-
-.links p {
-    font-family: 'Cormorant', serif;
-    font-size: 90%;
-    color: #D1D1D1;
-    bottom: 0px;
-    position: absolute;
-}
-
-.links span {
-    opacity: 0%;
-    text-decoration: none;
-}
-
-a:link {
-    color: #D4DFB5;
-    text-decoration: none;
+    margin: 4;
+    font-weight: bold;
   }
   
-  a:visited {
-    color:#D1D1D1;
-    text-decoration: none;
+  .fab:hover {
+    color: #DF8F66;
   }
-  
-  a:hover {
-    color: gray;
-    text-decoration: none;
+
+  #coreAbout {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
-  
-  a:active {
-    color: gray;
-    text-decoration: none;
+
+  #coreText {
+      height: 50vh;
+      width: 60%;
+  }
+
+  #hello {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30;
+    margin-top: 7%;
+  }
+
+  #running {
+      width: 18%;
+      margin: 3%;
+  }
+
+  #coreAboutPara {
+      width: 100%;
+      margin-top: 3%;
+      font-size: 20;
+      color: #434343;
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: bold;
   }

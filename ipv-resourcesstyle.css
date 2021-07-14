@@ -1,0 +1,80 @@
+html, body { margin: 0; padding: 0; } 
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    display: flex;
+}
+
+#titleDiv {
+    width: 38vw;
+    align-self: left;
+    margin-top: 130px;
+    margin-left: 5vw;
+}
+
+#title {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 21;
+    margin-top: 0;
+    font-style: italic;
+}
+
+#logo {
+    width: 7%;
+    margin: 2%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+#navBar {
+    top: 0px;
+    height: 70px;
+    width: 57vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.navBarItem {
+    font-family: "Archivo Black", sans-serif;
+    color: #189EFF;
+    font-size: 90%;
+    padding: 10;
+}
+
+.navBarItems{
+    text-decoration: none;
+}
+
+#resources {
+    border-bottom: 2px solid #189EFF;
+    padding: 3;
+}
+
+#donate {
+    border: 2px solid #189EFF;
+}
+
+#para {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16;
+    margin-top: 0;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16;
+    margin-top: 0;
+}

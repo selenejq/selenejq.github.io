@@ -1,0 +1,223 @@
+html, body { margin: 0; padding: 0; } 
+
+body {
+    background-color: #189EFF;
+    display: block;
+    height: 100%;
+}
+
+#fixed {
+    /* align-self: flex-start; */
+    position: fixed;
+    width: 41vw;
+    background: whitesmoke;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 1;
+}
+
+#logo {
+    width: 15%;
+    margin: 4%;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+#titleDiv {
+    width: 70%;
+    align-self: left;
+    margin: 15%;
+}
+
+#title {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 300%;
+    margin: 0
+}
+
+#subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15;
+    margin-top: 0;
+}
+
+#scroll {
+    width: 58vw;
+    float:right;
+    position: absolute;
+    right: 0;
+    background-color: #189EFF;
+    top: 0;
+}
+
+#navBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    width: 53vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-right: 5%;
+    background-color: #189EFF;
+}
+
+.navBarItem {
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    font-size: 90%;
+    padding: 10;
+}
+
+.navBarItems{
+    text-decoration: none;
+}
+
+#research {
+    border-bottom: 2px solid white;
+    padding: 3;
+}
+
+#donate {
+    border: 2px solid white;
+}
+
+#aboutDiv {
+    width: 40vw;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 25%;
+}
+
+#aboutTitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-left: 50px;
+    font-size: 300%;
+    /* text-decoration: underline; */
+    padding: 0;
+    margin-bottom: 10;
+}
+
+#aboutPara {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 100%;
+    padding: 0;
+}
+
+#researchDiv {
+    width: 40vw;
+    margin: 0 auto;
+    height: 50%;
+    margin-top: 1500px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+#researchTitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-left: 50px;
+    font-size: 300%;
+    padding: 0;
+    margin-bottom: 10;
+}
+
+#researchPara {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 100%;
+    padding: 0;
+}
+
+.linked {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.citing {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 100%;
+    padding: 0;
+    font-style: italic;
+    margin: 0;
+    margin-left: 50px;
+}
+
+#resourceDiv {
+    width: 40vw;
+    margin: 0 auto;
+    height: 50%;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+#resourceTitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-left: 50px;
+    font-size: 300%;
+    /* text-decoration: underline; */
+    padding: 0;
+    margin-bottom: 10;
+}
+
+#resourcePara {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 100%;
+    padding: 0;
+}
+
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#funding {
+    margin-left: 9%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sponsor {
+    width: 100;
+}

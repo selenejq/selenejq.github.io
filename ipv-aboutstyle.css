@@ -1,0 +1,126 @@
+html, body { margin: 0; padding: 0; } 
+
+body {
+    background-color: #189EFF;
+    display: flex;
+    height: 100%;
+}
+
+#left {
+    width: 43vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    background-color: whitesmoke;
+}
+
+#titleDiv {
+    width: 38vw;
+    align-self: left;
+    margin-top: 120px;
+    margin-left: 5vw;
+}
+
+#title {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 21;
+    margin-top: 0;
+    font-style: italic;
+}
+
+#logo {
+    width: 7%;
+    margin: 2%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+#paraDiv {
+    width: 80%;
+}
+
+#para {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+}
+
+.link:visited {
+    color: #189EFF;
+}
+
+.link:hover {
+    color: #F0C940;
+}
+
+#right {
+    background-color: #189EFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navBar {
+    top: 0px;
+    height: 70px;
+    width: 57vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #189EFF;
+}
+
+.navBarItem {
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    font-size: 90%;
+    padding: 10;
+}
+
+.navBarItems{
+    text-decoration: none;
+}
+
+#about {
+    border-bottom: 2px solid white;
+    padding: 3;
+}
+
+#donate {
+    border: 2px solid white;
+}
+
+#video {
+    margin-top: 70px;
+}
+
+#caption {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    color: white;
+}

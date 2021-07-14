@@ -1,0 +1,105 @@
+html, body { margin: 0; padding: 0; } 
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    display: flex;
+}
+
+#titleDiv {
+    width: 38vw;
+    align-self: left;
+    margin-top: 130px;
+    margin-left: 5vw;
+}
+
+#title {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 21;
+    margin-top: 0;
+    font-style: italic;
+}
+
+#logo {
+    width: 7%;
+    margin: 2%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+#navBar {
+    top: 0px;
+    height: 70px;
+    width: 57vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.navBarItem {
+    font-family: "Archivo Black", sans-serif;
+    color: #189EFF;
+    font-size: 90%;
+    padding: 10;
+}
+
+.navBarItems{
+    text-decoration: none;
+}
+
+#people {
+    border-bottom: 2px solid #189EFF;
+    padding: 3;
+}
+
+#donate {
+    border: 2px solid #189EFF;
+}
+
+td {
+    padding: 15px;
+    border-spacing: 10px;
+    width: 20%;
+}
+
+#nicolaDell {
+    width: 100%;
+}
+
+#tomRistenpart {
+    width: 100%;
+}
+
+#thomasKadri {
+    background-color: grey;
+}
+
+#damonCoy {
+    width: 100%;
+}
+
+.heading {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 21;
+    margin-top: 0;
+}
+
+.names {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10;
+    margin-top: 0;
+    text-align: center;
+}

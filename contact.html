@@ -6,11 +6,12 @@
 </head>
 
 <body>
-    <div class="sideBar">
-        <a style="text-decoration:none" href="about.html"><p class="item about">about me</p></a>
-        <a style="text-decoration:none" href="cook.html"><p class="item cook">cooking</p></a>
-        <a style="text-decoration:none" href="design.html"><p class="item design">graphic design</p></a>
-        <p class="item contact">contact</p>
+    <div id="navBar">
+        <p id="home">Selene Jiang-Qin</p>
+        <div id="buttons">
+            <a href="contact.html"><img src="images/contact.svg" id="contact"></a>
+            <img src="images/menu.svg" id="menu">
+        </div>
     </div>
     <script>
         window.addEventListener("DOMContentLoaded", function () {
@@ -47,17 +48,17 @@
         }
     </script>
     <form id="my-form" action="https://formspree.io/xbjzqrnp" method="POST">
-        <h1>contact</h1>
-        <p>Selene would love to hear from you! Required fields marked with *</p>
-        <input type="text" name="firstName" placeholder="first name*" class="fname" required>
+        <h1>Contact</h1>
+        <p>Selene would love to hear from you! Required fields marked with *.</p>
+        <input type="text" name="firstName" placeholder="First Name*" class="fname" required>
         <br>
-        <input type="text" name="lastName" placeholder="last name*" class="lname" required>
+        <input type="text" name="lastName" placeholder="Last Name*" class="lname" required>
         <br>
-        <input type="email" name="email" placeholder="email address*" class="emailForm" required/>
+        <input type="email" name="email" placeholder="Email Address*" class="emailForm" required/>
         <br>
-        <textarea type="text" name="message" placeholder="say hey!*"></textarea>
+        <textarea type="text" name="message" placeholder="Say hey!*"></textarea>
         <br>
-        <button id="my-form-button" class="submitButton">send</button>
+        <button id="my-form-button" class="submitButton">Send</button>
         <p id="my-form-status"></p>
     </form>
 </body>
